@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.finalproject.presentation.view.ToolbarView
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shadow_top"
-        android:elevation="1dp"
-        app:drawable_end="@drawable/baseline_more_vert_24"
-        app:drawable_start="@drawable/baseline_arrow_back_24" />
-
     <ImageView
         android:id="@+id/posterImage"
         android:layout_width="match_parent"
