@@ -1,10 +1,10 @@
-package com.example.finalproject.data.network.data_source
+package com.example.finalprojectmovie.data.network.data_source
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.finalproject.common.Const.Api.MOVIE_STARTING_PAGE_INDEX
-import com.example.finalproject.data.network.api.MovieApi
-import com.example.finalproject.data.network.model.MovieEntity
+import com.example.finalprojectmovie.common.Const.Api.MOVIE_STARTING_PAGE_INDEX
+import com.example.finalprojectmovie.data.network.api.MovieApi
+import com.example.finalprojectmovie.data.network.model.MovieEntity
 import retrofit2.HttpException
 import java.io.IOException
 

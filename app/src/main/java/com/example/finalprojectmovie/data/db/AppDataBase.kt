@@ -1,8 +1,8 @@
-package com.example.finalproject.data.db
+package com.example.finalprojectmovie.data.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.finalproject.common.Const.DB.DB_VERSION
+import com.example.finalprojectmovie.common.Const.DB.DB_VERSION
 
 @Database(
     entities = [
