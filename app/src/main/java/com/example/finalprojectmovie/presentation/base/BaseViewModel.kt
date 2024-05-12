@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.base
+package com.example.finalprojectmovie.presentation.base
 
 import android.util.Log
 import androidx.lifecycle.LiveData

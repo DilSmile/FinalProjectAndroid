@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.detail
+package com.example.finalprojectmovie.presentation.screen.detail
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.finalprojectmovie.databinding.FragmentTrailersBinding
 import com.example.finalprojectmovie.presentation.decoration.OffsetDecoration
-import com.example.finalprojectmovie.detail.TrailerAdapter
+import com.example.finalprojectmovie.presentation.screen.detail.adapter.TrailerAdapter
 
 
 class MovieTrailerFragment : Fragment() {

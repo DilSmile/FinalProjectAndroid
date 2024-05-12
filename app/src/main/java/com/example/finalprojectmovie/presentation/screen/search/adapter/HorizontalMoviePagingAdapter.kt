@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.search.adapter
+package com.example.finalprojectmovie.presentation.screen.search.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.finalprojectmovie.databinding.ItemHorizontalMovieBinding
 import com.example.finalprojectmovie.domain.model.Movie
 import com.example.finalprojectmovie.presentation.adapter_common.OnMovieClickListener
-import com.example.finalprojectmovie.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
 
 class HorizontalMoviePagingAdapter(
     private val imageLoader: ImageLoader

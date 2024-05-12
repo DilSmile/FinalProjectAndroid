@@ -1,9 +1,9 @@
-package com.example.finalprojectmovie.decoration
+package com.example.finalprojectmovie.presentation.decoration
 
 import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.example.finalproject.common.dp
+import com.example.finalprojectmovie.common.dp
 
 class OffsetDecoration(start: Int = 0, top: Int = 0, end: Int = 0, bottom: Int = 0) :
     RecyclerView.ItemDecoration() {

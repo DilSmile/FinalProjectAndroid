@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.view
+package com.example.finalprojectmovie.presentation.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -9,7 +9,7 @@ import androidx.core.view.isVisible
 import androidx.navigation.findNavController
 import com.example.finalprojectmovie.R
 import com.example.finalprojectmovie.databinding.ViewToolbarBinding
-import com.example.finalproject.common.setAttrs
+import com.example.finalprojectmovie.common.setAttrs
 
 class ToolbarView @JvmOverloads constructor(
     context: Context,

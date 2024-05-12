@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.search
+package com.example.finalprojectmovie.presentation.screen.search
 
 import android.app.Activity
 import android.os.Bundle
@@ -15,8 +15,8 @@ import androidx.navigation.fragment.findNavController
 import com.example.finalprojectmovie.databinding.FragmentSearchScreenBinding
 import com.example.finalprojectmovie.presentation.base.BaseFragment
 import com.example.finalprojectmovie.presentation.decoration.OffsetDecoration
-import com.example.finalprojectmovie.image_loader.ImageLoader
-import com.example.finalprojectmovie.presentation.search.adapter.HorizontalMoviePagingAdapter
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.screen.search.adapter.HorizontalMoviePagingAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

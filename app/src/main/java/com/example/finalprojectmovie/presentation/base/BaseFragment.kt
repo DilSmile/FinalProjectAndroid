@@ -1,10 +1,10 @@
-package com.example.finalprojectmovie.base
+package com.example.finalprojectmovie.presentation.base
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.finalprojectmovie.R
 import com.example.finalprojectmovie.presentation.adapter_common.OnMovieClickListener
-import com.example.finalprojectmovie.detail.MovieDetailsFragment
+import com.example.finalprojectmovie.presentation.screen.detail.MovieDetailsFragment
 
 open class BaseFragment : Fragment() {
 

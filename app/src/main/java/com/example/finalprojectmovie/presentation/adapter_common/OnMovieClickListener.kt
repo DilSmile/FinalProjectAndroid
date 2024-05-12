@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.adapter_common
+package com.example.finalprojectmovie.presentation.adapter_common
 
 fun interface OnMovieClickListener {
     fun click(id: Int)

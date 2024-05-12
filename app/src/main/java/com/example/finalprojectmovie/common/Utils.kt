@@ -1,4 +1,4 @@
-package com.example.finalproject.common
+package com.example.finalprojectmovie.common
 
 import android.content.res.Resources
 import android.content.res.TypedArray

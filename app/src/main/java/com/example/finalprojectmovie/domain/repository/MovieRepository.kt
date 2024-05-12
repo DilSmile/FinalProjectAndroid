@@ -1,10 +1,10 @@
-package com.example.finalprojectmovie.data.db.domain.repository
+package com.example.finalprojectmovie.domain.repository
 
 import androidx.paging.PagingData
-import com.example.finalprojectmovie.data.db.domain.model.Movie
-import com.example.finalprojectmovie.data.db.domain.model.MovieDetails
-import com.example.finalprojectmovie.data.db.domain.model.Trailer
-import com.example.finalprojectmovie.data.db.domain.model.Video
+import com.example.finalprojectmovie.domain.model.Movie
+import com.example.finalprojectmovie.domain.model.MovieDetails
+import com.example.finalprojectmovie.domain.model.Trailer
+import com.example.finalprojectmovie.domain.model.Video
 import kotlinx.coroutines.flow.Flow
 
 interface MovieRepository {

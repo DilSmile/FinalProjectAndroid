@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.home
+package com.example.finalprojectmovie.presentation.screen.home
 
 import android.content.Intent
 import android.os.Bundle
@@ -16,8 +16,8 @@ import com.example.finalprojectmovie.presentation.adapter_common.VerticalMovieAd
 import com.example.finalprojectmovie.databinding.FragmentHomeScreenBinding
 import com.example.finalprojectmovie.presentation.base.BaseFragment
 import com.example.finalprojectmovie.presentation.decoration.OffsetDecoration
-import com.example.finalprojectmovie.detail.MovieDetailsFragment
-import com.example.finalprojectmovie.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.screen.detail.MovieDetailsFragment
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

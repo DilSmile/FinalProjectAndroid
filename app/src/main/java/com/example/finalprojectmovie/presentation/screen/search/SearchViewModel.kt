@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.search
+package com.example.finalprojectmovie.presentation.screen.search
 
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData

@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.my_lists
+package com.example.finalprojectmovie.presentation.screen.my_lists
 
 import com.example.finalprojectmovie.domain.model.Movie
 import com.example.finalprojectmovie.domain.repository.MovieRepository

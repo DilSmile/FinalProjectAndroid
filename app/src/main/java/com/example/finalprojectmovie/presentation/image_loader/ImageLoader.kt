@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.image_loader
+package com.example.finalprojectmovie.presentation.image_loader
 
 import android.widget.ImageView
 

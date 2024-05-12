@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.my_lists
+package com.example.finalprojectmovie.presentation.screen.my_lists
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,7 +12,7 @@ import com.example.finalprojectmovie.databinding.FragmentWatchListBinding
 import com.example.finalprojectmovie.presentation.adapter_common.HorizontalMovieAdapter
 import com.example.finalprojectmovie.presentation.base.BaseFragment
 import com.example.finalprojectmovie.presentation.decoration.OffsetDecoration
-import com.example.finalprojectmovie.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

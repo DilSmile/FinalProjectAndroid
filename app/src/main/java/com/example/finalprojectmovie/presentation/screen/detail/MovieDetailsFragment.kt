@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.detail
+package com.example.finalprojectmovie.presentation.screen.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,13 +8,17 @@ import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.finalprojectmovie.R
 import com.example.finalprojectmovie.databinding.FragmentMovieDetailsBinding
-import com.example.finalprojectmovie.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.screen.detail.adapter.MovieDetailsViewPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
+
+// FIXME make viewPager height dynamic
 @AndroidEntryPoint
 class MovieDetailsFragment : Fragment() {
 
@@ -33,6 +37,12 @@ class MovieDetailsFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.toolbar.onDrawableStartClick = { findNavController().popBackStack() }
+        hideView()
+        setUpViewModel()
+    }
 
     private fun hideView() = with(binding) {
         posterImage.visibility = View.INVISIBLE
@@ -56,6 +66,11 @@ class MovieDetailsFragment : Fragment() {
                 viewModel.addRemoveWatchList()
             }
 
+            viewPager.offscreenPageLimit = 2
+            viewPager.adapter = MovieDetailsViewPagerAdapter(
+                childFragmentManager,
+                lifecycle
+            )
             viewPager.isUserInputEnabled = false
             TabLayoutMediator(topTab, viewPager, false, false) { tab, position ->
                 when (position) {

@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.adapter_common
+package com.example.finalprojectmovie.presentation.adapter_common
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.finalprojectmovie.databinding.ItemHorizontalMovieBinding
 import com.example.finalprojectmovie.domain.model.Movie
-import com.example.finalprojectmovie.image_loader.ImageLoader
+import com.example.finalprojectmovie.presentation.image_loader.ImageLoader
 
 class HorizontalMovieAdapter(
     private val imageLoader: ImageLoader

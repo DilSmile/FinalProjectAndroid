@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.detail
+package com.example.finalprojectmovie.presentation.screen.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

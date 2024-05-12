@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.detail
+package com.example.finalprojectmovie.presentation.screen.detail.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

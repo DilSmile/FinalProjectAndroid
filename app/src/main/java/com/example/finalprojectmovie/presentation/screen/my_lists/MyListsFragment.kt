@@ -1,4 +1,4 @@
-package com.example.finalprojectmovie.presentation.my_lists
+package com.example.finalprojectmovie.presentation.screen.my_lists
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.finalprojectmovie.R
-import com.example.finalprojectmovie.presentation.my_lists.adapter.UserListsViewPagerAdapter
+import com.example.finalprojectmovie.presentation.screen.my_lists.adapter.UserListsViewPagerAdapter
 import com.example.finalprojectmovie.databinding.FragmentMyListsBinding
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
